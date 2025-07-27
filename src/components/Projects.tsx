@@ -30,7 +30,7 @@ export function Projects() {
         {
             title: "GrooveBox",
             description:
-                "A project in WPI's Music Perception and Robotics Lab, doing real-time drum orchestration from a hand-tapped rhythm on a physical device. Makes use of Google Magenta's GrooVAE model.",
+                "A resesarch project in WPI's Music Perception and Robotics Lab, doing real-time drum orchestration from a hand-tapped rhythm on a physical device. Makes use of Google Magenta's GrooVAE model made available through a small OSC server. This project is projected to become a published paper in winter of 2025.",
             technologies: [
                 "Embedded Systems",
                 "Onset Detection",
@@ -43,7 +43,7 @@ export function Projects() {
         {
             title: "Calenday (AKA WPI's Workday Calendar Generator)",
             description:
-                "A small web application created during WPI's Goat Hacks 48-hour hackathon, which takes exported course schedules and exports calendar-consumable files to streamline getting courses into outlook.",
+                "A small web application created during WPI's Goat Hacks 48-hour hackathon, which takes exported course schedules and exports calendar-consumable files to streamline getting courses into outlook. WPI's Academic Research & Computing team now hosts this web app for use by WPI students.",
             technologies: ["React", "Material UI", "WPI Cloud Servers"],
             liveUrl: "https://workday-calendar-generator.wpi.edu/",
             githubUrl: "https://github.com/WheatleyTheCore/Calanday",
@@ -51,7 +51,7 @@ export function Projects() {
         {
             title: "Logic Analyzer",
             description:
-                "A logic analyzer built using the MC9S08SH8 microprocessor",
+                "A logic analyzer built using the MC9S08SH8 microprocessor. This was created enable real-time, dynamic baud rate detection for circuit hacking on an incredibly tight budget.",
             technologies: ["Processor Expert", "Kicad", "Embedded C"],
             githubUrl: "https://github.com/WheatleyTheCore/Logic-Analyzer",
         },

@@ -9,7 +9,7 @@ export function Skills() {
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Express", "Python", "MySQL", "MariaDB", "MongoDB", "Laravel"]
+      skills: ["Node.js", "Express", "Python", "MySQL", "MariaDB", "MongoDB", "Firebase", "GraphQL", "Laravel", "Hadoop"]
     },
     {
       title: "Tools & DevOps",

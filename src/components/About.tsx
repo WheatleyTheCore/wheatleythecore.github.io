@@ -23,11 +23,14 @@ export function About() {
           <div className="space-y-6">
             <p>
               Hi! I'm Violet, a full-stack developer with over 5 years of experience building 
-              web applications. I specialize in React, NextJS, and Node.js, but I'm always excited to dig into new technologies.
+              web applications. I specialize in React, NextJS, and Node, and I'm always interested in new and exciting technologies. 
+              Working primarily in the startup space I'm used working in small teams and self-starting, and also have experience outside of my main web development role doing server administration, performing updates, data migrations, distaster recovery, security (hardening servers and responding to bad actors), API development, and developer environment setup automation.
             </p>
+
+            <p>I'm currently finishing up my BS in Electrical and Computer Engineering and my MS in Computer Science at WPI. There, I do research in WPI's BASH lab (working on distributed embedded machine learning), Guitar Innovation lab (studying electric guitar pickups) and Music Perception and Robotics lab (developing instruments at the intersection of affective haptics, ML-augmented music generation, and embedded systems).</p>
             
             <p>
-              Outside of work, I write music, do instrument repair/restoration/maintenance (mostly guitars and basses, sometimes pianos and others), bookbinding, inkmaking, and a million other things. 
+              Outside of work I write music, do instrument repair/restoration/maintenance (mostly guitars and basses, sometimes pianos and others), bookbinding, inkmaking, and a million other things. 
               I'm passionate about accessability and inclusivity both in and out of the office, and believe that we work best together everyone feels seen.
             </p>
 

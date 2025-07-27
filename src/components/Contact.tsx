@@ -4,7 +4,7 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Button } from './ui/button';
 import { Label } from './ui/label';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { toast } from 'sonner';
 
 export function Contact() {
@@ -54,70 +54,9 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
-          <div className="lg:col-span-2">
-            <Card>
-              <CardHeader>
-                <CardTitle>Send a Message</CardTitle>
-                <CardDescription>
-                  Fill out the form below and I'll get back to you as soon as possible.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label htmlFor="name">Name</Label>
-                      <Input
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleInputChange}
-                        required
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="email">Email</Label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="subject">Subject</Label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleInputChange}
-                      rows={5}
-                      required
-                    />
-                  </div>
-                  <Button type="submit" className="w-full">
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
-          </div>
+        <div className="grid lg:grid-cols-1 gap-8">
 
-          <div className="space-y-6">
+          <div className="space-y-6 mx-auto">
             <Card>
               <CardHeader>
                 <CardTitle>Contact Information</CardTitle>
@@ -151,16 +90,16 @@ export function Contact() {
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-4">
                   I'm always interested in new opportunities and interesting projects. 
-                  Whether you have a question or just want to say hi, feel free to reach out!
+                  Feel free to reach out!
                 </p>
                 <div className="flex space-x-2">
                   <Button variant="outline" size="sm" asChild>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/violet-colwell-852593179/" target="_blank" rel="noopener noreferrer">
                       LinkedIn
                     </a>
                   </Button>
                   <Button variant="outline" size="sm" asChild>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/WheatleyTheCore" target="_blank" rel="noopener noreferrer">
                       GitHub
                     </a>
                   </Button>
